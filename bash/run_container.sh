@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run -p 8000:8000 my-django-app
+docker run -d -p 8000:8000 my-django-app
